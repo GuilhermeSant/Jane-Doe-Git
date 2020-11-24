@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+html,body{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    border: 1px solid;
+    padding: 3.5% 38%;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    
+    
+}
+
+.titulo{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navBar ul{
+    text-align: center;    
+    color: inherit; 
+    list-style: none;
+    display: flex;
+    padding-left: 10%;
+}
+
+.navBar ul li{
+align-self: center;
+margin-left: 8.5%;
+
+}
+
+.navBar a{
+    text-decoration:none; 
+    color: gray;
+}
+
+.navBar a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+header{
+        border: 1px solid;
+        /* margin-top: 30px; */
+        padding: 20px 20px;
+        width: 100%;
+        background-color: white;
+    
+}
+
+
+
+#BannerHome{
+    height: -10%;
+}
+
+#BannerHome img{
+    margin-top: 5%;
+    object-fit: cover;
+    
+}
+
+.conceptInfo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2% 19%;
+}
+
+.conceptInfo h2{
+    margin-bottom: 2%;
+}
+
+.conceptInfo article span {
+    font-weight: bold;
+}
+
+.conceptInfo article{
+    margin-bottom: 5%;
+}
+
+.homeList{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: -2%;
+    
+}
+
+.homeList .musicList{
+    margin-left: 8%;
+    align-self: flex-start;
+}
+
+.musicList li{
+    margin-top: 5%;
+}
+
+.musicList span{
+    font-weight: bold;
+    color: rgb(248, 190, 0);
+}
+
+.rodape{
+    text-align: center;
+    font-weight: normal;
+    background-color: #f1f1f1;
+    padding: 0.5%;
+    margin-top: 3%;
+}
+
+.aboutInfo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.aboutInfo img{
+    height:20%;
+    width: 20%;
+}
+
+.contactInfo{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 10%;
+    margin-left: 30%;
+}
+
+.contactInfo h2{
+    margin-bottom: 1.2%;
+}
+
+.contactInfo h3{
+    margin-bottom: 1%;
+}
+
+.contactInfo p {
+    padding: 0.3%;
+}
+
+.contactInfo hr{
+    margin-top: 0.3%;
+    margin-bottom: 1%;
+}
+
+.formularieContact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.contactInputs{
+    margin-right: 2%;
+}
+
+.clientInfo input{
+    width: 100%;
+    height: 4vh;
+}
+
+.socialInfo{
+    margin-top: 5%;
+}
+
+.socialInfo input{
+    margin-right: 1%;
+    background-color: gray;
+}
+
+.socialInfo button{
+    width: 19%;
+    height: 3.5vh;
+    background-color: orangered;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+}
+.musicInfo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 8%;
+    margin-left: 23%;
+}
+
+.musicInfo h1{
+    margin-bottom: 1.2%;
+}
+
+.musicInfo .video1 ul{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.musicInfo .video2 ul{
+    list-style: none;
+    margin-top: 2%;
+}
+
+.musicInfo .video2 li{
+    padding: 1%;
+}

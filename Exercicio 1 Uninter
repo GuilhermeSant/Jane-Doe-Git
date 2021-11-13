@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPXslktuJyO/mjIDgYEyMWK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GuilhermeSant/Jane-Doe-Git/blob/master/Exercicio%201%20Uninter\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0O7UdbkYNYqQ",
+        "outputId": "0374f864-7836-47e7-fe4e-6c0b36d5932f"
+      },
+      "source": [
+        "def refazer (): #valida se deseja ccontinuar e solicita novo nome e idade\n",
+        "  num = (int (input('Deseja continuar?   0 - Nao   1 - Sim ')))\n",
+        "  if (num == 1):\n",
+        "    function (input('nome '),int(input('idade ')))\n",
+        "  else:\n",
+        "    print (\"obrigado !!\")\n",
+        "\n",
+        "def  function (nome, idade): #recebe nome e idade e retorna informacao conforme idade informada  \n",
+        "      if (idade >= 15):\n",
+        "        print(f\"O aluno {nome} tem {idade} anos e esta no ensino medio\")\n",
+        "      elif (idade < 15 and idade >= 11):\n",
+        "        print(f\"O aluno {nome} tem {idade} anos e esta no Ensino Fundamental II \")\n",
+        "      elif (idade < 11 and idade >= 6):\n",
+        "        print(f\"O aluno {nome} tem {idade} anos e esta no Ensino Fundamental I\")\n",
+        "      elif(idade < 6 and idade >=1):\n",
+        "        print(f\"O aluno {nome} tem {idade} anos e esta na Educaçao Infantil \")\n",
+        "      refazer ()\n",
+        "\n",
+        "#execucao funcao\n",
+        "function ('Guilherme', 24)\n"
+      ],
+      "execution_count": 61,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O aluno Guilherme tem 24 anos e esta no ensino medio\n",
+            "Deseja continuar?   0 - Nao   1 - Sim 1\n",
+            "nome Gui\n",
+            "idade 30\n",
+            "O aluno Gui tem 30 anos e esta no ensino medio\n",
+            "Deseja continuar?   0 - Nao   1 - Sim 0\n",
+            "obrigado !!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
